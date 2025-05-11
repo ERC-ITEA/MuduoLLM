@@ -293,15 +293,15 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 1. 下载本仓库内容
 
 ```bash
-git clone https://github.com/icalk-nlp/EduChat.git
-cd EduChat
+git clone https://github.com/xjjhg/SCWX_LM.git
+cd SCWX_LM
 ```
 
 2. 创建conda环境
 
 ```bash
-conda create --name educhat python=3.8
-conda activate educhat
+conda create --name educhat python=3.10
+conda activate SCWX_LM
 ```
 
 3. 安装依赖
@@ -334,8 +334,6 @@ pip install transformers
             * 避免突然结束，确保有完整的认知闭环
             * 明确说出正确答案（如“正确答案为...”“本题答案为...”等）
 ```
-
-
 
 #### 智能出题
 
