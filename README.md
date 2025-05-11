@@ -1,11 +1,11 @@
 # SCWX_LM
 
 <p align="center">
-    <img src="imgs/logo/师承万象.png" width="100"/>
+    <img src="imgs/logo/师承万象.png" height="70"/>
 <p>
 
 <p align="center">
-    <img src="imgs/logo/北师大.jpg" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgs/logo/北师大.jpg" width="100"/>
+    <img src="imgs/logo/北师大.jpg" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgs/logo/TAL.png" height="70"/>
 <p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ### 通用能力
 
-<img src="imgs/demo/智能出题.png" style="width: 100%; height: auto;">
+<img src="imgs/demo/通用能力.png" style="width: 100%; height: auto;">
 </p>
 
 师承万象大模型作为目前性能最好的开源基础教育大模型，保留了强大的通用对话能力，能够流畅应对日常交流、知识问答、创意生成等多样化需求。无论是闲聊互动、学习辅助，还是实用信息查询、解题，它都能以精准的理解和自然的表达提供帮助。
@@ -35,13 +35,15 @@
 
 ### 专业能力
 
-<details><summary><b>智能出题</b></summary>
+<details><summary><b>智能答疑</b></summary>
 
-<img src="imgs/demo/智能出题.png" style="width: 100%; height: auto;">
+<img src="imgs/demo/智能答疑.png" style="width: 100%; height: auto;">
+
+智能答疑场景基于苏格拉底启发式教学法，通过多轮对话的形式，引导用户逐步深入思考，自主发现问题的答案。系统不会直接给出结论，而是以层层递进的提问方式，帮助用户梳理逻辑、澄清概念，最终在互动中掌握知识核心。
 
 </details>
 
-<details><summary><b>智能答疑</b></summary>
+<details><summary><b>智能出题</b></summary>
 
 <img src="imgs/demo/智能出题.png" style="width: 100%; height: auto;">
 
@@ -49,7 +51,7 @@
 
 <details><summary><b>教案生成</b></summary>
 
-<img src="imgs/demo/智能出题.png" style="width: 100%; height: auto;">
+<img src="imgs/demo/教案生成.png" style="width: 100%; height: auto;">
 
 </details>
 
@@ -85,28 +87,11 @@ todo
 
 <details><summary><b>数学评测结果</b></summary>
 
+<img src="imgs/evals/数学基础能力.png" style="width: 100%; height: auto;">
+
 | **Model**                      | **图形与几何（客观题）** | **数与代数（客观题）** | **统计与概率（客观题）** | **综合与实践（客观题）** | **图形与几何（主观题）** | **数与代数（主观题）** | **统计与概率（主观题）** | **综合与实践（主观题）** |
 |--------------------------------|--------------------------|------------------------|--------------------------|--------------------------|--------------------------|------------------------|--------------------------|--------------------------|
-| DeepSeek-R1                    | 0.895                    | 0.955                  | 0.915                    | 0.93                     | 0.95                     | 0.96                   | 0.94                     | 0.89                     |
-| o3-mini                        | 0.895                    | 0.92                   | 0.88                     | 0.905                    | 0.95                     | 0.96                   | 0.93                     | 0.85                     |
-| DeepSeek-V3                    | 0.89                     | 0.93                   | 0.905                    | 0.915                    | 0.95                     | 0.95                   | 0.93                     | 0.88                     |
-| gpt-4.1                        | 0.825                    | 0.81                   | 0.85                     | 0.84                     | 0.9                      | 0.94                   | 0.94                     | 0.85                     |
-| DeepSeek-R1-Distill-Qwen-14B   | 0.785                    | 0.84                   | 0.755                    | 0.75                     | 0.82                     | 0.86                   | 0.82                     | 0.73                     |
-| Qwen-14B                       | 0.775                    | 0.82                   | 0.78                     | 0.71                     | 0.81                     | 0.77                   | 0.8                      | 0.72                     |
-| glm-4-9b-chat                  | 0.4                      | 0.475                  | 0.405                    | 0.37                     | 0.74                     | 0.76                   | 0.76                     | 0.6                      |
-| phi-4                          | 0.575                    | 0.68                   | 0.655                    | 0.455                    | 0.81                     | 0.8                    | 0.85                     | 0.73                     |
-| Baichuan2-13B-Chat             | 0.365                    | 0.395                  | 0.375                    | 0.29                     | 0.31                     | 0.44                   | 0.33                     | 0.33                     |
-| internlm2-math-20b             | 0.39                     | 0.47                   | 0.43                     | 0.37                     | 0.49                     | 0.42                   | 0.43                     | 0.28                     |
-| glm-4-9b-chat (重复)           | 0.4                      | 0.475                  | 0.405                    | 0.37                     | 0.74                     | 0.76                   | 0.76                     | 0.6                      |
-| gemma-3-12b-it                 | 0.625                    | 0.67                   | 0.655                    | 0.545                    | 0.84                     | 0.83                   | 0.83                     | 0.69                     |
-| 星火lite                       | -                        | -                      | -                        | -                        | -                        | -                      | -                        | -                        |
-| Confucius                      | 0.815                    | 0.825                  | 0.79                     | 0.695                    | 0.75                     | 0.82                   | 0.71                     | 0.68                     |
-| educhat-base-002-13b           | 0.125                    | 0.155                  | 0.155                    | 0.14                     | 0.14                     | 0.09                   | 0.3                      | 0.11                     |
-| educhat-sft-002-13b            | 0.165                    | 0.22                   | 0.12                     | 0.17                     | 0.15                     | 0.14                   | 0.27                     | 0.16                     |
-| freeze                         | 0.69                     | 0.76                   | 0.73                     | 0.63                     | 0.78                     | 0.83                   | 0.8                      | 0.7                      |
-| merge                          | 0.865                    | 0.89                   | 0.87                     | 0.775                    | 0.67                     | 0.48                   | 0.68                     | 0.54                     |
-| ours_3epoch_0430               | 0.775                    | 0.85                   | 0.78                     | 0.655                    | 0.86                     | 0.84                   | 0.85                     | 0.73                     |
-| pt_0507                        | 0.8                      | 0.815                  | 0.775                    | 0.75                     | 0.85                     | 0.88                   | 0.87                     | 0.77                     |
+7                     | 0.77                     |
 
 </details>
 
@@ -235,13 +220,33 @@ todo
 
 #### 智能出题
 
-<details><summary><b>评测结果</b></summary>
+**评测结果**
+
+<details><summary><b>数学评测结果</b></summary>
+
+</details>
+
+<details><summary><b>物理评测结果</b></summary>
+
+</details>
+
+<details><summary><b>化学评测结果</b></summary>
 
 </details>
 
 #### 教案生成
 
-<details><summary><b>评测结果</b></summary>
+**评测结果**
+
+<details><summary><b>数学评测结果</b></summary>
+
+</details>
+
+<details><summary><b>物理评测结果</b></summary>
+
+</details>
+
+<details><summary><b>化学评测结果</b></summary>
 
 </details>
 
@@ -348,17 +353,17 @@ pip install transformers
 
 ## Citation
 
-If you find our work helpful, feel free to give us a cite.
+TODO
 
 ```bibtex
-@article{qwen2.5,
-    title   = {Qwen2.5 Technical Report}, 
-    author  = {An Yang and Baosong Yang and Beichen Zhang and Binyuan Hui and Bo Zheng and Bowen Yu and Chengyuan Li and Dayiheng Liu and Fei Huang and Haoran Wei and Huan Lin and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Yang and Jiaxi Yang and Jingren Zhou and Junyang Lin and Kai Dang and Keming Lu and Keqin Bao and Kexin Yang and Le Yu and Mei Li and Mingfeng Xue and Pei Zhang and Qin Zhu and Rui Men and Runji Lin and Tianhao Li and Tingyu Xia and Xingzhang Ren and Xuancheng Ren and Yang Fan and Yang Su and Yichang Zhang and Yu Wan and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zihan Qiu},
-    journal = {arXiv preprint arXiv:2412.15115},
-    year    = {2024}
+@article{SCWX_LM,
+    title   = {}, 
+    author  = {},
+    journal = {},
+    year    = {2025}
 }
 
 ```
 
 ## Contact Us
-If you are interested to leave a message to either our research team or product team, join our [Discord](https://discord.gg/z3GAxXZ9Ce) or [WeChat groups](assets/wechat.png)!
+TODO
