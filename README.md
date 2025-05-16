@@ -140,7 +140,7 @@
 <div align="center">
 <img src="imgs/evals/radar_question_generation.png" style="width: 60%; height: auto;">
 </div>
-<figcaption align="center"><b>智能出题</b></figcaption>
+<figcaption style="text-align: center;"><b>智能出题</b></figcaption>
 </figure>
 
 <br>
@@ -148,7 +148,7 @@
 <div align="center">
 <img src="imgs/evals/radar_QA.png" style="width: 60%; height: auto;">
 </div>
-<figcaption align="center"><b>智能答疑</b></figcaption>
+<figcaption style="text-align: center;"><b>智能答疑</b></figcaption>
 </figure>
 
 <br>
@@ -156,14 +156,14 @@
 <div align="center">
 <img src="imgs/evals/radar_teach_plan.png" style="width: 60%; height: auto;">
 </div>
-<figcaption align="center"><b>教案生成</b></figcaption>
+<figcaption style="text-align: center;"><b>教案生成</b></figcaption>
 </figure>
 
 <details>
 <summary><b>📝 智能出题</b></summary>
 
 <div align="center">
-<img src="imgs/demo/question_generation.png" style="width: 60%; height: auto;">
+<img src="imgs/demo/question_generation.png" style="width: 90%; height: auto;">
 </div>
 
 在同量级模型中，师承万象具备最强情境创设能力，可生成优质情境化题目，将抽象知识转化为真实可感的问题情境，提升实际问题解决能力。
