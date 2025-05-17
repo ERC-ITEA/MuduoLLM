@@ -27,6 +27,9 @@
   - [核心能力](#核心能力)
     - [教育专业能力](#教育专业能力)
     - [教育应用能力](#教育应用能力)
+    - [📝 智能出题](#-智能出题)
+    - [🤖 智能答疑](#-智能答疑)
+    - [📚 教案生成](#-教案生成)
     - [通用能力](#通用能力)
   - [快速开始](#快速开始)
     - [环境要求](#环境要求)
@@ -130,35 +133,17 @@
 
 师承万象教育大模型 深度聚焦基础教育领域需求，紧密围绕新课标要求进行了全面优化与精准适配，目前已成熟支持教案生成、智能出题、智能答疑、智能解题等核心教育应用场景。通过前沿技术与教育教学的深度融合，该模型正持续为教育数字化转型注入创新动能，助力构建更智能、更高效的现代化教育生态。
 
-<figure>
-<div align="center">
-<img src="imgs/evals/radar_question_generation.png" style="width: 60%; height: auto;">
-</div>
-<figcaption style="text-align: center;"><b>智能出题</b></figcaption>
-</figure>
-
-<br>
-<figure>
-<div align="center">
-<img src="imgs/evals/radar_QA.png" style="width: 60%; height: auto;">
-</div>
-<figcaption style="text-align: center;"><b>智能答疑</b></figcaption>
-</figure>
-
-<br>
-<figure>
-<div align="center">
-<img src="imgs/evals/radar_teach_plan.png" style="width: 60%; height: auto;">
-</div>
-<figcaption style="text-align: center;"><b>教案生成</b></figcaption>
-</figure>
-
-<details>
-<summary><b>📝 智能出题</b></summary>
+### 📝 智能出题
 
 <div align="center">
 <img src="imgs/demo/question_generation.png" style="width: 90%; height: auto;">
 </div>
+
+<figure>
+<div align="center">
+<img src="imgs/evals/radar_question_generation.png" style="width: 90%; height: auto;">
+</div>
+</figure>
 
 在同量级模型中，师承万象具备最强情境创设能力，可生成优质情境化题目，将抽象知识转化为真实可感的问题情境，提升实际问题解决能力。
 
@@ -176,10 +161,8 @@
 | Spark-lite     | 78.67            | 71.67          | 51.83          | 20.50          | 14.50          | 47.43        |
 | **师承万象**   | **99.00**        | **99.00**      | 87.17          | **82.50**      | **39.00**      | **81.33**    |
 
-</details>
 
-<details>
-<summary><b>🤖 智能答疑</b></summary>
+### 🤖 智能答疑
 
 <div align="center">
 <img src="imgs/demo/Q_A.png" style="width: 90%; height: auto;">
@@ -193,6 +176,13 @@
 - 🎓 掌握知识要点
 
 在同量级模型中，师承万象具有最强的启发引导能力，分步讲解中可提供精准反馈与生成高质提问，促进深度思考，激发批判性思维。
+
+<br>
+<figure>
+<div align="center">
+<img src="imgs/evals/radar_QA.png" style="width: 90%; height: auto;">
+</div>
+</figure>
 
 
 | 模型名         | 语言流畅 | 知识点正确 | 推理正确 | 合理反馈 | 导正话题 | 分步骤讲解 | 提问质量 | 引导质量 | 均分 |
@@ -209,14 +199,19 @@
 | Spark-lite     | 71.73          | 39.08          | 60.16          | 28.13          | 16.21          | 28.99            | 3.17           | 23.24          | 33.84        |
 | **师承万象**   | **89.15**      | **83.52**      | 87.61          | 64.14          | **98.70**      | **86.89**        | 94.51          | **76.33**      | **77.09**    |
 
-</details>
 
-<details>
-<summary><b>📚 教案生成</b></summary>
+### 📚 教案生成
 
 <div align="center">
 <img src="imgs/demo/teach_plan.png" style="width: 90%; height: auto;">
 </div>
+
+<br>
+<figure>
+<div align="center">
+<img src="imgs/evals/radar_teach_plan.png" style="width: 90%; height: auto;">
+</div>
+</figure>
 
 在同量级模型中，师承万象具有最强的自主学习激发能力，可生成探究式、协作式教学方案，助力培养以学生为中心的自主建构式学习意识。
 
@@ -233,8 +228,6 @@
 | Confucius-o1   | 81.75            | 65.57            | **89.70**        | 89.40            | 76.65          | 83.21        |
 | Spark-lite     | 71.67            | 37.71            | 67.95            | 66.30            | 79.80          | 61.96        |
 | **师承万象**   | **83.64**        | **70.22**        | 88.05            | 88.35            | **86.10**      | **86.86**    |
-
-</details>
 
 ### 通用能力
 
