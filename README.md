@@ -513,10 +513,11 @@ model = AutoModelForCausalLM.from_pretrained(
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 # 准备输入
-prompt = "Give me a short introduction to large language model." ### 给一个教育领域的prompt
+system_prompt = "你是北京师范大学和好未来开发的人工智能语言模型，名为师承万象。可以回答问题、提供信息、进行对话并帮助解决问题。"
+user_prompt = "Give me a short introduction to large language model."
 messages = [
-    {"role": "system", "content": "你是北京师范大学和好未来开发的人工智能语言模型，名为师承万象。可以回答问题、提供信息、进行对话并帮助解决问题。"},
-    {"role": "user", "content": prompt}
+    {"role": "system", "content": system_prompt},
+    {"role": "user", "content": user_prompt}
 ]
 
 # 生成回复
