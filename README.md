@@ -49,7 +49,6 @@
     - [📚 教案生成](#-教案生成-1)
 - [许可证](#许可证)
 - [引用](#引用)
-- [联系我们](#联系我们)
 
 # 1. 简介
 
@@ -596,12 +595,10 @@ user_prompt = """请帮我生成初中数学中一元二次方程的教案."""
 # 引用
 
 ```bibtex
-@misc{shi-cheng-wan-xiang-2025,
+@misc{MuduoLLM2025,
   title={MuduoLLM: A High-Performance LLM for Intelligent Education Solutions},
-  author={MuduoLLM Contributors from BNU and TAL},
+  author={Qiannan Zhu, ZeChen Li, Yang Zhang, Xuetao Ma,Weihao You, Mei Wang, Ting Zhang, Jinfeng Bai, Jian Li, Hua Huang, Mi Tian},
   year={2025},
   howpublished={\url{https://huggingface.co/ERC-ITEA/MuduoLLM}},
 }
 ```
-
-# 联系我们
