@@ -95,7 +95,7 @@
   - 优化工具：
     - DeepSpeed：0.15.4（ZeRO-3优化器）
     - FlashAttention
-    - 训练精度：bfloat16混合精度
+    - 训练精度：BF16混合精度
   - 运行环境：Conda虚拟环境 + Weights & Biases监控
 - **训练时长**：10天
 
