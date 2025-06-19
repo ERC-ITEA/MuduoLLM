@@ -1,5 +1,0 @@
-# 忽略 Excel 文件
-*.xlsx
-
-# 忽略 scripts 文件夹
-scripts/
