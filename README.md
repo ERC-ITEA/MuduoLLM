@@ -20,7 +20,7 @@
 <img src="imgs/logo/北师大.jpg" height="50"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="imgs/logo/TAL.png" height="50"/>
 </div> -->
 
-[🎓师承万象大模型公测平台](https://smartedu-bnu.tal.com/)  |  [🤗 模型开源链接](https://huggingface.co/ERC-ITEA/MuduoLLM)
+[🎓师承万象基础教育大模型公测平台](https://smartedu-bnu.tal.com/)  |  [🤗 模型开源链接](https://huggingface.co/ERC-ITEA/MuduoLLM)
 
 </div>
 
